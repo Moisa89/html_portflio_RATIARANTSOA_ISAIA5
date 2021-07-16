@@ -1,0 +1,88 @@
+.principal{
+	padding: 20px;
+	background: rgb(199,199,199);
+	border-collapse: collapse;
+	height: 100%;
+	width: 100%;
+	
+	vertical-align: bottom;
+			
+}
+
+.gauche{
+	margin-top: 200px;
+	position: relative;
+	float:left;
+	height:100% ;
+	width:50%;
+}
+.droite{
+	
+	float: right;
+	height: 100%;
+	width:50%;
+}
+.petit{
+	margin-top: -10px;
+}
+.droite1{
+	
+	float: right;
+	width: 55%;
+}
+#droite2{
+	margin-top: 20px;
+	background: white;
+	float: right;
+	width: 100%;
+}
+a{
+	margin: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+#div1, #div2, #div3, #div4{
+	position: absolute;
+	background-image:url(../code.jpg);
+}
+div#div1{
+	background-image:url(../code.jpg);
+	width: 100%;
+	height:100%;
+}
+#div2, #div3, #div4{
+	display: none;
+}
+ #div2:target, #div3:target, #div4:target{
+	display: block;
+}
+.flotte{
+	float:left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.image{
+	border-radius:15px ; 
+	height:30px; 
+	width:22px;
+	margin-left: 10px;
+}
+.marge{
+	
+	text-indent: 5em;
+}
+img{
+	margin-left:50px;
+}
+@media (min-height: 800px){
+	.principal{
+		padding: 0 100px;
+		margin-top: 5vh;
+		min-height: 90vh;
+	}
+}
+body{
+	background:rgb(12,12,12);
+	color: white;
+	background-image:url(html.jpg);
+}
